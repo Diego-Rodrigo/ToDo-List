@@ -1,0 +1,228 @@
+.task {
+    width: 100%;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-300);
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+   
+  }
+
+.task + .task{
+    margin-top: 0.75rem;
+}
+
+.task p {
+    font-size: 0.90rem;
+    line-height: 1.5rem;
+    color: var(--gray-100);
+    margin-right: auto;
+}
+  
+p.textCompleted {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+  
+.checkContainer {
+    min-width: 1.125rem;
+    height: 1.125rem;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+  
+.checkContainer div {
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 50%;
+    border: 1px solid var(--blue);
+    
+}
+.checkContainer div:hover{
+    
+    border: 1px solid var(--blue-dark);
+    /* background: var(--gray-400); */
+    
+}
+  
+.checkContainer svg{
+    border-radius: 50%;
+    background: var(--purple-dark);
+    color: var(--gray-100);
+    padding: 0.25rem;
+}
+
+.checkContainer svg:hover {
+    padding: 0.25rem;
+    background: var(--purple);
+    color: var(--gray-100);
+}
+  
+.deleteButton {
+    background: none;
+    border: none;
+    color: var(--gray-300);
+    padding: 0.25rem;
+    cursor: pointer;
+
+    display: flex;
+    
+}
+
+  .deleteButton:hover {
+    color: var(--red);
+    background: var(--gray-400);
+    
+    border-radius: inherit;
+  }
+
+
+
+/* .contentTask {    
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.headerTask{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.headerTask span {
+    font-size: 1rem;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.headerTask strong {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 14px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+
+.list{
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;    
+    background: var(--gray-500);
+    height: 5rem;
+    color: var(--gray-100);
+    font-size: 0.80rem;
+    line-height: 1.4;
+    border: 1px solid var(--gray-400);
+    border-radius: 6px;
+    padding: 1rem;
+
+}
+
+li + li {
+    margin-top: 0.75rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.list input[type=checkbox] {
+   
+   position: relative;
+   cursor: pointer;
+   background:transparent;
+}
+
+
+
+.list p{
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.list button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-300);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+    width: 1.5rem;
+    height: 1.5rem;
+    
+}
+
+.list button:hover{
+    color: var(--red);
+    background: var(--gray-400);
+    border-radius: 2px; 
+    transition: background-color 0.2s;    
+}
+
+.taskContent {
+    margin: 0 auto;
+    max-width: 46rem;
+    width: 100%;
+    /*border: 1px solid #fff;
+    position: relative;
+    top:-1.25rem;    
+}
+
+.newTaskForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.newTaskForm input {
+    width: 100%;
+    background: var(--gray-500);
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--gray-700);
+    border-radius: 6px; 
+    color: var(--gray-100);
+    font-size: 1rem;  
+    line-height: 1.4;
+
+}
+
+.newTaskForm input::placeholder{
+    color: var(--gray-300);
+    font-size: 0.90rem;
+}
+
+.newTaskForm input:focus{
+    outline: transparent;
+    border: 1px solid var(--purple-dark);
+}
+
+.newTaskForm button {    
+    display: flex;
+    align-items: center;    
+    padding: 0.90rem 1.25rem;        
+    border: 0;
+    border-radius: 6px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    font-weight: bold;
+    font-size: 0.80rem;    
+    cursor: pointer;
+}
+
+.newTaskForm button:hover{
+
+    background: var(--blue);
+    transition: background-color 0.2s;  
+}
+
+.newTaskForm button svg {
+    margin-left: 0.25rem;
+} */

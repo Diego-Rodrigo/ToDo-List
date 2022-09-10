@@ -1,0 +1,154 @@
+.tasksContent {    
+    width: 100%;
+    max-width: 736px;
+    margin: 0 auto;  
+    /* border: 1px solid var(--gray-300); */
+    position: absolute;
+    top: 145px;
+}
+
+.newTaskForm {    
+    width: 100%;
+    height: 54px;
+    max-width: 736px;   
+
+    display: flex;
+    gap: 0.5rem;
+    padding: 0;
+    /* border: 1px solid var(--red); */
+}
+
+.newTaskForm input{
+    height: 100%;
+    flex: 1;
+    color: var(--gray-100);
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 6px;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.newTaskForm input::placeholder {
+    color: var(--gray-300);;
+}
+
+.newTaskForm button {
+    height: 100%;
+    padding: 0 16px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.newTaskForm button:hover {
+  background: var(--blue);
+  transition: background-color 0.2s;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8rem;
+    margin-bottom: 2.5rem;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header span {
+    font-size: 1rem;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.header p {
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 700;
+  } 
+  
+.header strong {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.purpleText span {
+        color: var(--purple);
+}
+  
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    
+}
+
+.listHeader strong {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 14px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.emptyToDoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.emptyToDoList svg {
+    margin-top: 4rem;
+    color: var(--gray-400);
+}
+
+.emptyToDoList strong {
+    margin-top: 1.25rem;
+    color: var(--gray-300);
+    font-weight: bold;
+    font-size: 0.95rem;
+    line-height:1.4;
+    padding-bottom: 0.25rem;
+}
+.emptyToDoList p {
+    font-size: 0.85rem;
+    color: var(--gray-300);
+    line-height:1.4;
+}
+
+.list button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-300);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+    width: 1.5rem;
+    height: 1.5rem;
+    
+}
+
+.list button:hover{
+    color: var(--red);
+    background: var(--gray-400);
+    border-radius: 2px; 
+    transition: background-color 0.2s;    
+}
