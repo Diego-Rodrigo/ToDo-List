@@ -49,6 +49,7 @@ export function Tasks({tasks, onAddNewTask, onDeleteTask, onCompletedTask}: Prop
                     type="text" 
                     onChange={handleNewTitleTaskChange} 
                     value={newTitleTaskText}
+                    required
                 />
 
                 <button>

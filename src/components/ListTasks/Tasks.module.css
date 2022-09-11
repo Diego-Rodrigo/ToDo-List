@@ -33,6 +33,10 @@
     color: var(--gray-300);;
 }
 
+.newTaskForm input:focus {
+    border: 1px solid var(--purple);
+}
+
 .newTaskForm button {
     height: 100%;
     padding: 0 16px;
